@@ -1,5 +1,5 @@
 {
-    "name": "greenter/report",
+    "name": "greenterfin/report",
     "description": "Representacion Impresa para Facturacion Electrónica SUNAT - Perú",
     "keywords": ["sunat", "pdf", "greenter", "facturacion electronica"],
     "license": "MIT",
@@ -7,14 +7,22 @@
         {
             "name": "Giancarlos Salas",
             "email": "giansalex@gmail.com"
+        },
+        {
+            "name": "Yerson Y. Campos De la cruz",
+            "email": "ycamposde@gmail.com"
+        },
+        {
+            "name": "Financontcorp",
+            "email": "appmanager@finacontcorp.com"
         }
     ],
-    "homepage": "https://github.com/giansalex/greenter-report",
+    "homepage": "https://github.com/finacontcorp/greenter-report",
     "type": "library",
     "require": {
 		"php": ">=5.5.9",
         "twig/twig": "~1.0 || ~2.0 || ~3.0",
-        "greenter/core": "^2.1",
+        "greenterfin/core": "^1.0.0",
         "bacon/bacon-qr-code": "^1.0"
     },
 	"require-dev": {
